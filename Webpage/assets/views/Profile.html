@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <!--- basic page needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <title>Agora</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- mobile specific metas
+        ================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <style>
+            
+            nav{
+                width: 100%;
+                height: 120px;
+                border-bottom: 1px solid #707070;
+            }
+            
+            *{
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+            
+            #agora-title{
+                font-weight: 300; 
+            }
+            
+            .grn{
+                color:#056A05;
+            }
+            
+            .grey{
+                color: #43425D;
+            }
+            
+            .profile{
+                border: 1px solid #E8E9EC;
+                height: 30px;
+                width: 300px;
+            }
+        
+        </style>
+        
+
+    </head>
+
+    <!-- BODY-->
+    
+    <body>
+        
+        <header>
+            <nav class="navbar-header navbar-default">
+                <div class="container-fluid">
+                    <a class="navbar-brand" style="font-size: 45px; text-decoration: none; color: #43425D" href= "#">
+                        <img src="../images/agora.png" style="width: 76px; height: 76px; margin-left: 79px; margin-top: 23px">
+                        <span id="agora-title" style="margin-left:50px; position: relative; top: 15px">AGORA</span>
+                    </a>
+                </div>
+                <!-- Add right-side navbar things -->
+                <ul class="nav navbar-nav navbar-right grn">
+                    <li style="position: absolute; right:300px; top:50px">Dashboard</li>
+                </ul>
+                <button class="btn navbar-btn navbar-right" style="position: absolute; right:100px; top:40px; color: white; background-color: #056A05; border-radius: 25px; width:150px; height: 50px">Sign Out</button>
+                
+            </nav>
+        </header>
+        
+        <main>
+            
+            <div class="container">
+                <div class="d-flex flex-row">
+                    <div class="d-flex">
+                        <img src="../images/agora.png" style="width: 200px; height: 200px; position: absolute; left: 100px; top: 181px; ">
+                    </div>
+                    <div class="d-flex">
+                        <h1 style="font-size: 55px; position: absolute; top:175px; left:360px" class="grn"><i>*name*</i></h1>
+                    </div>
+                    <div class="d-flex">
+                        <h6 style="font-size: 25px; position: absolute; top: 260px; left:360px; font-weight:300" class="grn">*description</h6>
+                    </div>
+                    <div class="d-flex">
+                        <img src="../images/AOSSIE_logo_11_cropped_15cm.png" style="height: 200px; width: 227px; position: absolute; top: 181px; right: 100px">
+                    </div>
+                </div>
+            </div>
+            
+            
+            <form class="form-control" action="#">
+                <div class="container" style="position: absolute; top: 450px; left: 100px; border-bottom: 2px solid black;">
+                    <h5 class="grn"><i><b>My Account</b></i></h5>
+                </div>
+
+                <div class="d-flex flex-column" style="position:absolute; left: 100px; top: 520px; padding-left:15px">
+                    <div class="d-flex">
+                        <h5 class="grn" style="font-weight: 300">Name</h5>
+                    </div>
+                    <div class="d-flex" style="padding-top: 50px">
+                        <h5 class="grn" style="font-weight: 300">First Name</h5>
+                    </div>
+                    <div class="d-flex" style="padding-top: 50px">
+                        <h5 class="grn" style="font-weight: 300">Last Name</h5>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column" style="position:absolute; top: 520px; left:100px;margin-left: 200px">
+                    <input class="form-control profile" type="text" placeholder = "Username">
+                </div>
+                
+            </form>
+            
+            
+        </main>
+    
+    </body>
